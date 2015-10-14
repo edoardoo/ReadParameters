@@ -1,0 +1,9 @@
+[Section_One]
+This is parameter one = a value  
+This should be the two = another value ;and a comment
+This could be the third = 3 ;
+
+[Section Two]
+This is parameter one = a value  
+This should be the two = another value ;and a comment
+This could be the third = 3 ;
