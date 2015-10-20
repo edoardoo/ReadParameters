@@ -23,6 +23,7 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Flash));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -30,8 +31,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.authorLink = new System.Windows.Forms.LinkLabel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.parametersTextBox = new System.Windows.Forms.TextBox();
             this.closeFlash = new System.Windows.Forms.Button();
+            this.udCounterCtrl1 = new Automation.BDaq.UdCounterCtrl(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -99,16 +101,17 @@
             this.authorLink.Text = "edoardoo.com";
             this.authorLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.authorLink_LinkClicked);
             // 
-            // textBox1
+            // parametersTextBox
             // 
-            this.textBox1.AcceptsReturn = true;
-            this.textBox1.AcceptsTab = true;
-            this.textBox1.BackColor = System.Drawing.Color.LightGray;
-            this.textBox1.Location = new System.Drawing.Point(186, 167);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(318, 245);
-            this.textBox1.TabIndex = 6;
+            this.parametersTextBox.AcceptsReturn = true;
+            this.parametersTextBox.AcceptsTab = true;
+            this.parametersTextBox.BackColor = System.Drawing.Color.LightGray;
+            this.parametersTextBox.Location = new System.Drawing.Point(186, 167);
+            this.parametersTextBox.Multiline = true;
+            this.parametersTextBox.Name = "parametersTextBox";
+            this.parametersTextBox.Size = new System.Drawing.Size(318, 245);
+            this.parametersTextBox.TabIndex = 6;
+            this.parametersTextBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // closeFlash
             // 
@@ -120,6 +123,10 @@
             this.closeFlash.UseVisualStyleBackColor = true;
             this.closeFlash.Click += new System.EventHandler(this.closeFlash_Click);
             // 
+            // udCounterCtrl1
+            // 
+            this.udCounterCtrl1._StateStream = ((Automation.BDaq.DeviceStateStreamer)(resources.GetObject("udCounterCtrl1._StateStream")));
+            // 
             // Flash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -127,7 +134,7 @@
             this.ClientSize = new System.Drawing.Size(528, 488);
             this.ControlBox = false;
             this.Controls.Add(this.closeFlash);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.parametersTextBox);
             this.Controls.Add(this.authorLink);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -154,8 +161,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.LinkLabel authorLink;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox parametersTextBox;
         private System.Windows.Forms.Button closeFlash;
+        private Automation.BDaq.UdCounterCtrl udCounterCtrl1;
     }
 }
 

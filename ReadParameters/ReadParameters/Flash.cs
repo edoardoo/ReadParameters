@@ -13,6 +13,9 @@ namespace ReadParameters {
         public Flash() {
           
             InitializeComponent();
+            Parameters parameters = new Parameters();
+            this.parametersTextBox.Text = parameters.getFormattedParams();
+            
 
         }
 
@@ -40,6 +43,10 @@ namespace ReadParameters {
 
         private void closeFlash_Click(object sender, EventArgs e) {
             this.Close();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e) {
+
         }
     }
 }
