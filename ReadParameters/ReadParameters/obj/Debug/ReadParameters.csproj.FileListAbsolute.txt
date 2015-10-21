@@ -23,3 +23,11 @@ C:\Users\edo\Desktop\es4\ReadParameters\ReadParameters\obj\Debug\ReadParameters.
 C:\Users\edo\Documents\GitHubVisualStudio\ReadParameters\ReadParameters\ReadParameters\bin\Debug\ReadParameters.exe.config
 C:\Users\edo\Documents\GitHubVisualStudio\ReadParameters\ReadParameters\ReadParameters\obj\Debug\ReadParameters.exe
 C:\Users\edo\Documents\GitHubVisualStudio\ReadParameters\ReadParameters\ReadParameters\obj\Debug\ReadParameters.pdb
+C:\Users\edo\Documents\GitHubVisualStudio\ReadParameters\ReadParameters\ReadParameters\bin\Debug\ReadParameters.exe
+C:\Users\edo\Documents\GitHubVisualStudio\ReadParameters\ReadParameters\ReadParameters\bin\Debug\ReadParameters.pdb
+C:\Users\edo\Documents\GitHubVisualStudio\ReadParameters\ReadParameters\ReadParameters\obj\Debug\ReadParameters.csprojResolveAssemblyReference.cache
+C:\Users\edo\Documents\GitHubVisualStudio\ReadParameters\ReadParameters\ReadParameters\obj\Debug\ReadParameters.About.resources
+C:\Users\edo\Documents\GitHubVisualStudio\ReadParameters\ReadParameters\ReadParameters\obj\Debug\ReadParameters.Flash.resources
+C:\Users\edo\Documents\GitHubVisualStudio\ReadParameters\ReadParameters\ReadParameters\obj\Debug\ReadParameters.Main.resources
+C:\Users\edo\Documents\GitHubVisualStudio\ReadParameters\ReadParameters\ReadParameters\obj\Debug\ReadParameters.Properties.Resources.resources
+C:\Users\edo\Documents\GitHubVisualStudio\ReadParameters\ReadParameters\ReadParameters\obj\Debug\ReadParameters.csproj.GenerateResource.Cache

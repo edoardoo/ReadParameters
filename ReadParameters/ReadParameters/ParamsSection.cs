@@ -8,7 +8,7 @@ namespace ReadParameters {
     class ParamsSection {
 
         private string name;
-        private List <Parameter> sectionParameters;
+        private List<Parameter> sectionParameters = new List<Parameter>();
         public ParamsSection( string name ) {
             this.name = name;
         }
