@@ -67,17 +67,16 @@ namespace ReadParameters {
             
         }
         private string cleanSectionName( string dirtyName ) {
-            dirtyName = dirtyName.Replace("[", "");
-            dirtyName = dirtyName.Replace("]", "");
-            dirtyName = dirtyName.Replace("_", " ");
-
-            return dirtyName;
+         
+            return dirtyName.Replace("[", "").Replace("]", "").Replace("_", " ").Trim();
         
         }
 
+
         private string [] getKeyValueParameter( string wholeParameter) {
             string[] splitted = wholeParameter.Split('=');
-            splitted[1] = splitted[1].Split(';')[0];
+            splitted[1] = splitted[1].Split(';')[0].Trim();
+            splitted[0] = splitted[0].Trim();      
             return splitted;
         }
         public string getFormattedParams() {
